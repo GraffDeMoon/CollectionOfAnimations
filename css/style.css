@@ -42,14 +42,57 @@ body {
 }
 .wrp_annotation h3, .wrp_annotation p {
   margin: 0 0 0 10%;
+  color: white;
+  padding: 0 0 8px 0;
 }
 .wrp_annotation:hover {
   top: 0;
-  left: 0;
+  left: 10%;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .animetion-1 {
   background: #ec6865;
+}
+
+.body-1 {
+  text-decoration: none;
+  font-size: 25px;
+  color: #1fe8b6;
+  padding: 7px 30px;
+  border: 8px solid #1fe8b6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body-1::before,
+.body-1::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: inherit;
+  transition: all 0.5s;
+}
+
+.body-1::before {
+  top: -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
+}
+
+.body-1::after {
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
+}
+
+.body-1:hover::before,
+.body-1:hover::after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
 }
 
 .animetion-2 {
