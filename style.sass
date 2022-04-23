@@ -59,6 +59,7 @@ body
     left: 50%
     transform: translate(-50%, -50%)
 
+// - - - Buttoon border animation - - -
 .animetion-1
     background: #ec6865
 .body-1
@@ -89,6 +90,7 @@ body
     width: calc(100% + 27px)
     height: calc(100% + 27px)
 
+// - - - Spinning loading animation - - - 
 .animetion-2
     background: #e5bf7f
 .body-2
@@ -117,6 +119,7 @@ body
     to
         transform: rotate(360deg)
 
+// - - - Simple filter - - - 
 .animetion-3
     background: #65c058
 .body-3
@@ -126,3 +129,68 @@ body
 @keyframes body-3
     100%
         filter: hue-rotate(360deg)
+
+// - - - Bell notification - - - 
+.animetion-4
+    background: #669cce
+    & div div
+        position: absolute
+        &:hover .body-4
+            animation: body-4 1s forwards
+.body-4
+    width: 100px
+    height: 100px
+    position: relative
+@keyframes body-4
+    10%
+        transform: rotate(15deg)
+    20%
+        transform: rotate(-15deg)
+    30%
+        transform: rotate(15deg)
+    50%
+        transform: rotate(0deg)
+
+// - - - Gradient background - - - 
+.animetion-5
+    background: linear-gradient(to right, #833ab4,#fd1d1d, #fcb045)
+    background-size: 400% 400%
+    animation: animetion-5 10s infinite ease-in-out
+@keyframes animetion-5
+    0%
+        background-position: 0 50%
+    50%
+        background-position: 100% 50%
+    100%
+        background-position: 0 50%
+
+// - - - Spinning loading two - - - 
+.animetion-6
+    background: #1a2639
+.body-6_wrp
+    width: 100px
+    height: 100px
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    position: absolute
+.body-6_lod
+    box-sizing: border-box
+    width: 100%
+    height: 100%
+    border: 10px solid #162534
+    border-top-color: #4bc8eb
+    border-bottom-color: #f13a8f
+    border-radius: 50%
+    animation: body-6 5s linear infinite
+.body-6_inr
+    border-top-color: #36f372
+    border-bottom-color: #fff
+    animation-duration: 2.5s
+@keyframes body-6
+    0%
+        transform: scale(1) rotate(360deg)
+    50%
+        transform: scale(1) rotate(-360deg)
+    100%
+        transform: scale(1) rotate(360deg)
