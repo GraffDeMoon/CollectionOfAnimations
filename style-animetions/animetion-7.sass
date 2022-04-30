@@ -1,0 +1,26 @@
+// - - - Card Hover Zoom Animation - - - 
+.animetion-7
+    outline: 1px solid rgba(255, 255, 255, 0.5)
+    outline-offset: -8px
+    &:hover .body-7_img
+        transform: scale(1.15)
+        
+.body-7
+    position: relative
+    width: 100%
+    height: 100%
+    & h3 
+        color: #fff
+        position: absolute
+        left: 15px
+        bottom: 15px
+        font-size: 20px
+        text-shadow: 0 0 20px rgba(0, 0, 0, .5)
+
+.body-7_img
+    position: absolute
+    width: 100%
+    height: 100%
+    object-fit: cover
+    opacity: .6
+    transition: transform .75s
