@@ -1,0 +1,46 @@
+.animetion-4 {
+  background: #669cce;
+}
+.animetion-4 div div {
+  position: absolute;
+}
+.animetion-4 div div:hover .body-4 {
+  -webkit-animation: body-4 1s forwards;
+          animation: body-4 1s forwards;
+}
+
+.body-4 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+@-webkit-keyframes body-4 {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes body-4 {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
