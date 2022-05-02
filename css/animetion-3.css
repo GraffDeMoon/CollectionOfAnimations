@@ -3,7 +3,6 @@
 }
 
 .body-3 {
-  position: relative;
   height: 85%;
   -webkit-animation: body-3 2s alternate infinite;
           animation: body-3 2s alternate infinite;

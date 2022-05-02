@@ -68,6 +68,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .animetion-1 {
@@ -80,7 +81,6 @@ body {
   color: #2F4F4F;
   padding: 10px 15px;
   border: 8px solid #2F4F4F;
-  position: absolute;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -119,7 +119,6 @@ body {
 }
 
 .body-2 {
-  position: relative;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -165,7 +164,6 @@ body {
 }
 
 .body-3 {
-  position: relative;
   height: 85%;
   -webkit-animation: body-3 2s alternate infinite;
           animation: body-3 2s alternate infinite;
@@ -185,18 +183,15 @@ body {
 .animetion-4 {
   background: #669cce;
 }
-.animetion-4 div div {
-  position: absolute;
-}
-.animetion-4 div div:hover .body-4 {
-  -webkit-animation: body-4 1s forwards;
-          animation: body-4 1s forwards;
-}
 
 .body-4 {
   width: 100px;
   height: 100px;
   position: relative;
+}
+.body-4:hover {
+  -webkit-animation: body-4 1s forwards;
+          animation: body-4 1s forwards;
 }
 
 @-webkit-keyframes body-4 {
@@ -360,7 +355,6 @@ body {
   letter-spacing: 2px;
   color: #fff;
   transition: color 1s;
-  position: absolute;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -384,4 +378,59 @@ body {
 
 .animetion-8:hover::before {
   width: 150%;
+}
+
+.animetion-9 {
+  background-color: #fff;
+}
+
+#body-9_menu-toggle {
+  display: none;
+}
+
+.body-9_hamburger {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.body-9_bun {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.18s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.15s;
+}
+
+.body-9_bun-crust {
+  display: block;
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  background-color: #151515;
+  border-radius: 1px;
+  position: absolute;
+  transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.2s;
+}
+
+.body-9_bun-crust-top {
+  transform: translateY(-10px);
+}
+
+.body-9_bun-crust-bottom {
+  transform: translateY(10px);
+}
+
+#body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-top {
+  transform: rotate(45deg);
+}
+
+#body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-bottom {
+  transform: rotate(-45deg);
+}
+
+#body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-crust-top,
+#body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-crust-bottom {
+  transform: none;
+  transition: transform 0.1806s cubic-bezier(0.04, 0.04, 0.12, 0.96);
 }

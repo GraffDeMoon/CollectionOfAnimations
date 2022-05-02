@@ -1,14 +1,13 @@
 // - - - Bell notification - - - 
 .animetion-4
     background: #669cce
-    & div div
-        position: absolute
-        &:hover .body-4
-            animation: body-4 1s forwards
+
 .body-4
     width: 100px
     height: 100px
     position: relative
+    &:hover
+        animation: body-4 1s forwards
 @keyframes body-4
     10%
         transform: rotate(15deg)

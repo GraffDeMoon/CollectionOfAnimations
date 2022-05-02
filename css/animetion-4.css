@@ -1,18 +1,15 @@
 .animetion-4 {
   background: #669cce;
 }
-.animetion-4 div div {
-  position: absolute;
-}
-.animetion-4 div div:hover .body-4 {
-  -webkit-animation: body-4 1s forwards;
-          animation: body-4 1s forwards;
-}
 
 .body-4 {
   width: 100px;
   height: 100px;
   position: relative;
+}
+.body-4:hover {
+  -webkit-animation: body-4 1s forwards;
+          animation: body-4 1s forwards;
 }
 
 @-webkit-keyframes body-4 {
