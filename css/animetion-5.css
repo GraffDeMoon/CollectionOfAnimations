@@ -36,8 +36,8 @@
 .body-5_icon {
   display: inline-block;
   font-size: 60px;
-  -webkit-animation: float 3s ease-in-out infinite;
-          animation: float 3s ease-in-out infinite;
+  -webkit-animation: body-5 3s ease-in-out infinite;
+          animation: body-5 3s ease-in-out infinite;
 }
 
 .ri-instagram-line {
@@ -58,7 +58,7 @@
           animation-delay: 2s;
 }
 
-@-webkit-keyframes float {
+@-webkit-keyframes body-5 {
   0% {
     transform: translateY(0);
   }
@@ -70,7 +70,7 @@
   }
 }
 
-@keyframes float {
+@keyframes body-5 {
   0% {
     transform: translateY(0);
   }

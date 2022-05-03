@@ -120,8 +120,8 @@ body {
 .animetion-2 {
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   background-size: 400% 400%;
-  -webkit-animation: animetion-5 10s infinite ease-in-out;
-          animation: animetion-5 10s infinite ease-in-out;
+  -webkit-animation: animetion-2 10s infinite ease-in-out;
+          animation: animetion-2 10s infinite ease-in-out;
 }
 
 .body-2 {
@@ -146,8 +146,8 @@ body {
   height: 85%;
   background: linear-gradient(to right, #9d3495, #fd1d1d, #fc933d);
   background-size: 1800% 100%;
-  -webkit-animation: animetion-5 10s infinite ease-in-out;
-          animation: animetion-5 10s infinite ease-in-out;
+  -webkit-animation: animetion-2 10s infinite ease-in-out;
+          animation: animetion-2 10s infinite ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -164,7 +164,7 @@ body {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes animetion-5 {
+@-webkit-keyframes animetion-2 {
   0% {
     background-position: 0 50%;
   }
@@ -175,7 +175,7 @@ body {
     background-position: 0 50%;
   }
 }
-@keyframes animetion-5 {
+@keyframes animetion-2 {
   0% {
     background-position: 0 50%;
   }
@@ -329,8 +329,8 @@ body {
 .body-5_icon {
   display: inline-block;
   font-size: 60px;
-  -webkit-animation: float 3s ease-in-out infinite;
-          animation: float 3s ease-in-out infinite;
+  -webkit-animation: body-5 3s ease-in-out infinite;
+          animation: body-5 3s ease-in-out infinite;
 }
 
 .ri-instagram-line {
@@ -351,7 +351,7 @@ body {
           animation-delay: 2s;
 }
 
-@-webkit-keyframes float {
+@-webkit-keyframes body-5 {
   0% {
     transform: translateY(0);
   }
@@ -363,7 +363,7 @@ body {
   }
 }
 
-@keyframes float {
+@keyframes body-5 {
   0% {
     transform: translateY(0);
   }

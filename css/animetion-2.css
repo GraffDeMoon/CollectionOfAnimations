@@ -1,8 +1,8 @@
 .animetion-2 {
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   background-size: 400% 400%;
-  -webkit-animation: animetion-5 10s infinite ease-in-out;
-          animation: animetion-5 10s infinite ease-in-out;
+  -webkit-animation: animetion-2 10s infinite ease-in-out;
+          animation: animetion-2 10s infinite ease-in-out;
 }
 
 .body-2 {
@@ -27,8 +27,8 @@
   height: 85%;
   background: linear-gradient(to right, #9d3495, #fd1d1d, #fc933d);
   background-size: 1800% 100%;
-  -webkit-animation: animetion-5 10s infinite ease-in-out;
-          animation: animetion-5 10s infinite ease-in-out;
+  -webkit-animation: animetion-2 10s infinite ease-in-out;
+          animation: animetion-2 10s infinite ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes animetion-5 {
+@-webkit-keyframes animetion-2 {
   0% {
     background-position: 0 50%;
   }
@@ -56,7 +56,7 @@
     background-position: 0 50%;
   }
 }
-@keyframes animetion-5 {
+@keyframes animetion-2 {
   0% {
     background-position: 0 50%;
   }
