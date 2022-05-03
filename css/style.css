@@ -5,17 +5,20 @@
 
 body {
   background: #1b1b25;
+  height: 100vh;
 }
 
 .wraper {
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 0;
   justify-content: center;
-  margin: 15px;
+  align-items: center;
 }
 
 .wrp_box {
-  min-height: 130px;
+  min-height: 150px;
   min-width: 350px;
   border-radius: 15px;
   margin: 15px;

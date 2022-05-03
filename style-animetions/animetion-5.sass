@@ -1,12 +1,55 @@
-// - - - Gradient background - - - 
+// - - - Floating element animation - - - 
 .animetion-5
-    background: linear-gradient(to right, #833ab4,#fd1d1d, #fcb045)
-    background-size: 400% 400%
-    animation: animetion-5 10s infinite ease-in-out
-@keyframes animetion-5
+    background: #1a0e25
+
+.body-5
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    column-gap: 10px
+    &::before    
+        content: ''
+        position: absolute
+        width: 70%
+        height: 5px
+        background-color: rgba(37, 37, 37, 0.4)
+        border-radius: 10px
+        bottom: 25px
+    &::after
+        content: ''
+        position: absolute
+        width: 0
+        height: 5px
+        background-color: rgb(255, 255, 255)
+        border-radius: 10px
+        bottom: 25px
+        transition: width 1s
+    &:hover::after
+        width: 70%
+
+.body-5_icon
+    display: inline-block
+    font-size: 60px
+    animation: float 3s ease-in-out infinite
+
+.ri-instagram-line
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.ri-facebook-circle-line
+    color: #1877f2
+    animation-delay: 1s
+
+.ri-whatsapp-line
+    color: #25d366
+    animation-delay: 2s
+
+@keyframes float
     0%
-        background-position: 0 50%
+        transform: translateY(0)
     50%
-        background-position: 100% 50%
+        transform: translateY(-15px)
     100%
-        background-position: 0 50%
+        transform: translateY(0)
