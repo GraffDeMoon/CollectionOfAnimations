@@ -1,5 +1,8 @@
 .animetion-2 {
-  background: #e5bf7f;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background-size: 400% 400%;
+  -webkit-animation: animetion-5 10s infinite ease-in-out;
+          animation: animetion-5 10s infinite ease-in-out;
 }
 
 .body-2 {
@@ -7,14 +10,11 @@
   height: 90px;
   border-radius: 50%;
 }
-
-.body-2::before,
-.body-2::after {
+.body-2::before, .body-2::after {
   content: "";
   position: absolute;
   border-radius: inherit;
 }
-
 .body-2::before {
   width: 100%;
   height: 100%;
@@ -22,11 +22,13 @@
   -webkit-animation: body-2 0.5s infinite linear;
           animation: body-2 0.5s infinite linear;
 }
-
 .body-2::after {
   width: 85%;
   height: 85%;
-  background: #e5bf7f;
+  background: linear-gradient(to right, #9d3495, #fd1d1d, #fc933d);
+  background-size: 1800% 100%;
+  -webkit-animation: animetion-5 10s infinite ease-in-out;
+          animation: animetion-5 10s infinite ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -41,5 +43,27 @@
 @keyframes body-2 {
   to {
     transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes animetion-5 {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@keyframes animetion-5 {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
   }
 }
