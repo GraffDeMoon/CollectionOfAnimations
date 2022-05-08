@@ -16,7 +16,8 @@
 .body-10_tile div {
   height: 50px;
   width: 50px;
-  transition: all 2s;
+  transform: scale(1.15);
+  transition: all 1.9s;
   background: #4469a0;
 }
 
