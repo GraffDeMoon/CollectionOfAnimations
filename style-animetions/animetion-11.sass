@@ -1,0 +1,34 @@
+.animetion-11
+    background: #1a0e25
+    &:hover .body-11_line-1
+        animation: body-11 .5s forwards
+    &:hover .body-11_line-2
+        animation: body-11 .5s forwards
+        animation-delay: .175s
+    &:hover .body-11_line-3
+        animation: body-11 .5s forwards
+        animation-delay: .25s
+    &:hover .body-11_line-4
+        animation: body-11 .5s forwards
+        animation-delay: .325s
+
+.body-11
+    color: #fff
+    font-size: 25px
+    text-transform: uppercase
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: flex-start
+    padding-left: 15px
+    span
+        display: block
+        opacity: 0
+
+@keyframes body-11
+    from
+        transform: translateY(20px)
+    to
+        opacity: 1
+        transform: none

@@ -1,0 +1,61 @@
+.animetion-11 {
+  background: #1a0e25;
+}
+.animetion-11:hover .body-11_line-1 {
+  -webkit-animation: body-11 0.5s forwards;
+          animation: body-11 0.5s forwards;
+}
+.animetion-11:hover .body-11_line-2 {
+  -webkit-animation: body-11 0.5s forwards;
+          animation: body-11 0.5s forwards;
+  -webkit-animation-delay: 0.175s;
+          animation-delay: 0.175s;
+}
+.animetion-11:hover .body-11_line-3 {
+  -webkit-animation: body-11 0.5s forwards;
+          animation: body-11 0.5s forwards;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.animetion-11:hover .body-11_line-4 {
+  -webkit-animation: body-11 0.5s forwards;
+          animation: body-11 0.5s forwards;
+  -webkit-animation-delay: 0.325s;
+          animation-delay: 0.325s;
+}
+
+.body-11 {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+.body-11 span {
+  display: block;
+  opacity: 0;
+}
+
+@-webkit-keyframes body-11 {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes body-11 {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
