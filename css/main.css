@@ -390,6 +390,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  border-radius: 50%;
+}
+.body-6_wrp:hover {
+  -webkit-animation: body-6_pulsate 1s ease-in-out;
+          animation: body-6_pulsate 1s ease-in-out;
 }
 
 .body-6_lod {
@@ -432,6 +437,16 @@ body {
   }
   100% {
     transform: scale(1) rotate(360deg);
+  }
+}
+@-webkit-keyframes body-6_pulsate {
+  0% {
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+  }
+}
+@keyframes body-6_pulsate {
+  0% {
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
   }
 }
 .animetion-7 {
