@@ -79,6 +79,10 @@ body {
   display: none;
 }
 
+input, label, textarea, button, select, a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .animetion-1 {
   background: #ec6865;
 }
