@@ -13,7 +13,7 @@
     position: absolute
     cursor: pointer
     top: 50%
-    left: 30%
+    left: 17%
     transform: translate(-50%, -50%)
 
 .body-9_bun
@@ -56,7 +56,7 @@
     position: absolute
     cursor: pointer
     top: 50%
-    left: 70%
+    left: 47%
     transform: translate(-50%, -50%)
     .line
         position: absolute
@@ -85,3 +85,43 @@
     transform: rotate(-45deg)
     top: 50%
     
+// 3 Hamburger
+#body-9_menu-toggle-sh
+    display: none
+
+.body-9_hamburger-sh
+    width: 80px
+    height: 80px
+    border-radius: 50%
+    position: absolute
+    cursor: pointer
+    top: 50%
+    left: 77%
+    transform: translate(-50%, -50%)
+    div
+        width: 100%
+        height: 4px
+        border-radius: 8px
+        background: #000
+        position: absolute
+        top: 50%
+        left: 50%
+        transition: transform 1s
+        filter: blur(.35px)
+        &:nth-child(1)
+            transform: translateY(30px) translate(-50%, -50%)
+        &:nth-child(2)
+            transform: translateY(10px) translate(-50%, -50%)
+        &:nth-child(3)
+            transform: translateY(-10px) translate(-50%, -50%)
+        &:nth-child(4)
+            transform: translateY(-30px) translate(-50%, -50%)
+            
+#body-9_menu-toggle-sh:checked + .body-9_hamburger-sh div:nth-child(1)
+    transform: translate(-50%, -50%)
+#body-9_menu-toggle-sh:checked + .body-9_hamburger-sh div:nth-child(2)
+    transform: translate(-50%, -50%) rotateZ(45deg)
+#body-9_menu-toggle-sh:checked + .body-9_hamburger-sh div:nth-child(3)
+    transform: translate(-50%, -50%) rotateZ(90deg)
+#body-9_menu-toggle-sh:checked + .body-9_hamburger-sh div:nth-child(4)
+    transform: translate(-50%, -50%) rotateZ(135deg)
