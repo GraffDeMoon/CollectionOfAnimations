@@ -96,6 +96,10 @@ input, label, textarea, button, select, a {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .body-1::before,
@@ -137,6 +141,10 @@ input, label, textarea, button, select, a {
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 .body-2::before, .body-2::after {
   content: "";
@@ -203,6 +211,10 @@ input, label, textarea, button, select, a {
   height: 85%;
   -webkit-animation: body-3 2s alternate infinite;
           animation: body-3 2s alternate infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 @-webkit-keyframes body-3 {
@@ -580,6 +592,10 @@ input, label, textarea, button, select, a {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .animetion-8:hover .body-8 a {
