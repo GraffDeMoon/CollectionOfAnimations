@@ -68,13 +68,6 @@ body {
   top: 20%;
 }
 
-.body-position {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -627,12 +620,12 @@ input, label, textarea, button, select, a {
 }
 
 .body-9_hamburger {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   cursor: pointer;
   top: 50%;
-  left: 17%;
+  left: 20%;
   transform: translate(-50%, -50%);
 }
 
@@ -652,14 +645,15 @@ input, label, textarea, button, select, a {
   border-radius: 8px;
   position: absolute;
   transition: transform 0.1596s, cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.2s;
+  transform: translate(-50%, -50%);
 }
 
 .body-9_bun-crust-top {
-  transform: translateY(-10px);
+  transform: translateY(-7px);
 }
 
 .body-9_bun-crust-bottom {
-  transform: translateY(10px);
+  transform: translateY(7px);
 }
 
 #body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-top {
@@ -672,19 +666,19 @@ input, label, textarea, button, select, a {
 
 #body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-crust-top,
 #body-9_menu-toggle:checked + .body-9_hamburger .body-9_bun-crust-bottom {
-  transform: none;
+  transform: translate(0, -50%);
   transition: transform 0.1806s, cubic-bezier(0.04, 0.04, 0.12, 0.96);
 }
 
 .body-9_hamburger-bt {
   background: transparent;
   border: none;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   cursor: pointer;
   top: 50%;
-  left: 47%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .body-9_hamburger-bt .line {
@@ -728,13 +722,13 @@ input, label, textarea, button, select, a {
 }
 
 .body-9_hamburger-sh {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   position: absolute;
   cursor: pointer;
   top: 50%;
-  left: 77%;
+  left: 80%;
   transform: translate(-50%, -50%);
 }
 .body-9_hamburger-sh div {
@@ -749,16 +743,16 @@ input, label, textarea, button, select, a {
   filter: blur(0.35px);
 }
 .body-9_hamburger-sh div:nth-child(1) {
-  transform: translateY(30px) translate(-50%, -50%);
+  transform: translateY(24px) translate(-50%, -50%);
 }
 .body-9_hamburger-sh div:nth-child(2) {
-  transform: translateY(10px) translate(-50%, -50%);
+  transform: translateY(8px) translate(-50%, -50%);
 }
 .body-9_hamburger-sh div:nth-child(3) {
-  transform: translateY(-10px) translate(-50%, -50%);
+  transform: translateY(-8px) translate(-50%, -50%);
 }
 .body-9_hamburger-sh div:nth-child(4) {
-  transform: translateY(-30px) translate(-50%, -50%);
+  transform: translateY(-24px) translate(-50%, -50%);
 }
 
 #body-9_menu-toggle-sh:checked + .body-9_hamburger-sh div:nth-child(1) {
