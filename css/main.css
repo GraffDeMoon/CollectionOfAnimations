@@ -32,7 +32,7 @@ body {
   overflow: hidden;
 }
 
-.wrp_animetion,
+.wrp_animation,
 .wrp_annotation {
   width: 100%;
   height: 100%;
@@ -80,7 +80,7 @@ input, label, textarea, button, select, a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.animetion-1 {
+.animation-1 {
   background: #ec6865;
 }
 
@@ -127,11 +127,11 @@ input, label, textarea, button, select, a {
   height: calc(100% + 27px);
 }
 
-.animetion-2 {
+.animation-2 {
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   background-size: 400% 400%;
-  -webkit-animation: animetion-2 10s infinite ease-in-out;
-          animation: animetion-2 10s infinite ease-in-out;
+  -webkit-animation: animation-2 10s infinite ease-in-out;
+          animation: animation-2 10s infinite ease-in-out;
 }
 
 .body-2 {
@@ -160,8 +160,8 @@ input, label, textarea, button, select, a {
   height: 85%;
   background: linear-gradient(to right, #9d3495, #fd1d1d, #fc933d);
   background-size: 1800% 100%;
-  -webkit-animation: animetion-2 10s infinite ease-in-out;
-          animation: animetion-2 10s infinite ease-in-out;
+  -webkit-animation: animation-2 10s infinite ease-in-out;
+          animation: animation-2 10s infinite ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -178,7 +178,7 @@ input, label, textarea, button, select, a {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes animetion-2 {
+@-webkit-keyframes animation-2 {
   0% {
     background-position: 0 50%;
   }
@@ -189,7 +189,7 @@ input, label, textarea, button, select, a {
     background-position: 0 50%;
   }
 }
-@keyframes animetion-2 {
+@keyframes animation-2 {
   0% {
     background-position: 0 50%;
   }
@@ -200,7 +200,7 @@ input, label, textarea, button, select, a {
     background-position: 0 50%;
   }
 }
-.animetion-3 {
+.animation-3 {
   background: #65c058;
 }
 
@@ -225,10 +225,10 @@ input, label, textarea, button, select, a {
     filter: hue-rotate(360deg);
   }
 }
-.animetion-4 {
+.animation-4 {
   background: #669cce;
 }
-.animetion-4 .wrp_animetion {
+.animation-4 .wrp_animation {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -309,7 +309,7 @@ input, label, textarea, button, select, a {
     transform: rotate(0deg);
   }
 }
-.animetion-5 {
+.animation-5 {
   background: #1a0e25;
 }
 
@@ -469,7 +469,7 @@ input, label, textarea, button, select, a {
     top: 85%;
   }
 }
-.animetion-6 {
+.animation-6 {
   background: #1a2639;
 }
 
@@ -539,11 +539,11 @@ input, label, textarea, button, select, a {
     box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
   }
 }
-.animetion-7 {
+.animation-7 {
   outline: 1px solid rgba(255, 255, 255, 0.5);
   outline-offset: -8px;
 }
-.animetion-7:hover .body-7_img {
+.animation-7:hover .body-7_img {
   transform: scale(1.15);
 }
 
@@ -595,11 +595,11 @@ input, label, textarea, button, select, a {
   position: absolute;
 }
 
-.animetion-8:hover .body-8 a {
+.animation-8:hover .body-8 a {
   color: #1b1b25;
 }
 
-.animetion-8::before {
+.animation-8::before {
   content: "";
   position: absolute;
   top: 0;
@@ -611,11 +611,11 @@ input, label, textarea, button, select, a {
   transition: width 1s;
 }
 
-.animetion-8:hover::before {
+.animation-8:hover::before {
   width: 150%;
 }
 
-.animetion-9 {
+.animation-9 {
   background-color: #fff;
 }
 
@@ -798,141 +798,141 @@ input, label, textarea, button, select, a {
   background: #4469a0;
 }
 
-.animetion-10:hover .body-10_tile div {
+.animation-10:hover .body-10_tile div {
   height: 0;
   width: 0;
 }
 
-.animetion-10:hover .body-10_tile-1 {
+.animation-10:hover .body-10_tile-1 {
   transform: translate(-25px, -25px) rotate(5deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-2 {
+.animation-10:hover .body-10_tile-2 {
   transform: translate(-17px, -30px) rotate(10deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-3 {
+.animation-10:hover .body-10_tile-3 {
   transform: translate(-9px, -30px) rotate(20deg);
   transition-delay: 0.15s;
 }
 
-.animetion-10:hover .body-10_tile-4 {
+.animation-10:hover .body-10_tile-4 {
   transform: translate(0, -30px) rotate(30deg);
   transition-delay: 0.1s;
 }
 
-.animetion-10:hover .body-10_tile-5 {
+.animation-10:hover .body-10_tile-5 {
   transform: translate(9px, -30px) rotate(20deg);
   transition-delay: 0.15s;
 }
 
-.animetion-10:hover .body-10_tile-6 {
+.animation-10:hover .body-10_tile-6 {
   transform: translate(17px, -30px) rotate(10deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-7 {
+.animation-10:hover .body-10_tile-7 {
   transform: translate(25px, -25px) rotate(5deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-8 {
+.animation-10:hover .body-10_tile-8 {
   transform: translate(-30px, 0) rotate(22deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-9 {
+.animation-10:hover .body-10_tile-9 {
   transform: translate(-10px, 0) rotate(45deg);
   transition-delay: 0.1s;
   transition: all 1.9s;
 }
 
-.animetion-10:hover .body-10_tile-10 {
+.animation-10:hover .body-10_tile-10 {
   transform: translate(-5px, 0) rotate(67deg);
   transition-delay: 0.05s;
   transition: all 1.65s;
 }
 
-.animetion-10:hover .body-10_tile-11 {
+.animation-10:hover .body-10_tile-11 {
   transform: translate(0, 0) rotate(90deg);
   transition-delay: 0;
   transition: all 1.5s;
 }
 
-.animetion-10:hover .body-10_tile-12 {
+.animation-10:hover .body-10_tile-12 {
   transform: translate(5px, 0) rotate(67deg);
   transition-delay: 0.05s;
   transition: all 1.65s;
 }
 
-.animetion-10:hover .body-10_tile-13 {
+.animation-10:hover .body-10_tile-13 {
   transform: translate(10px, 0) rotate(45deg);
   transition-delay: 0.1s;
   transition: all 1.9s;
 }
 
-.animetion-10:hover .body-10_tile-14 {
+.animation-10:hover .body-10_tile-14 {
   transform: translate(30px, 0) rotate(22deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-15 {
+.animation-10:hover .body-10_tile-15 {
   transform: translate(-25px, 25px) rotate(5deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-16 {
+.animation-10:hover .body-10_tile-16 {
   transform: translate(-17px, 30px) rotate(10deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-17 {
+.animation-10:hover .body-10_tile-17 {
   transform: translate(-9px, 30px) rotate(20deg);
   transition-delay: 0.15s;
 }
 
-.animetion-10:hover .body-10_tile-18 {
+.animation-10:hover .body-10_tile-18 {
   transform: translate(0, 30px) rotate(30deg);
   transition-delay: 0.1s;
 }
 
-.animetion-10:hover .body-10_tile-19 {
+.animation-10:hover .body-10_tile-19 {
   transform: translate(9px, 30px) rotate(20deg);
   transition-delay: 0.15s;
 }
 
-.animetion-10:hover .body-10_tile-20 {
+.animation-10:hover .body-10_tile-20 {
   transform: translate(17px, 30px) rotate(10deg);
   transition-delay: 0.2s;
 }
 
-.animetion-10:hover .body-10_tile-21 {
+.animation-10:hover .body-10_tile-21 {
   transform: translate(25px, 25px) rotate(5deg);
   transition-delay: 0.2s;
 }
 
-.animetion-11 {
+.animation-11 {
   background: #1a0e25;
 }
-.animetion-11:hover .body-11_line-1 {
+.animation-11:hover .body-11_line-1 {
   -webkit-animation: body-11 0.5s forwards;
           animation: body-11 0.5s forwards;
 }
-.animetion-11:hover .body-11_line-2 {
+.animation-11:hover .body-11_line-2 {
   -webkit-animation: body-11 0.5s forwards;
           animation: body-11 0.5s forwards;
   -webkit-animation-delay: 0.175s;
           animation-delay: 0.175s;
 }
-.animetion-11:hover .body-11_line-3 {
+.animation-11:hover .body-11_line-3 {
   -webkit-animation: body-11 0.5s forwards;
           animation: body-11 0.5s forwards;
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
 }
-.animetion-11:hover .body-11_line-4 {
+.animation-11:hover .body-11_line-4 {
   -webkit-animation: body-11 0.5s forwards;
           animation: body-11 0.5s forwards;
   -webkit-animation-delay: 0.325s;
@@ -974,7 +974,7 @@ input, label, textarea, button, select, a {
     transform: none;
   }
 }
-.animetion-12 {
+.animation-12 {
   background: #2e2e39;
 }
 
