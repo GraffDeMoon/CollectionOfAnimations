@@ -1,0 +1,53 @@
+// - - - Text carousel - - - 
+.animation-15
+    background-color: #2f2333
+
+.body-15
+    height: 100%
+    width: 100%
+    font-family: sans-serif
+    text-transform: uppercase
+    font-size: 28px
+    color: #fff
+    font-weight: bold
+    letter-spacing: 2px
+    display: flex
+    justify-content: center
+    align-items: center
+.body-15_wraper
+    height: 28px
+    display: flex
+    overflow: hidden
+    .body-15_static
+        margin-right: 8px
+        display: flex
+        align-items: center
+    .body-15_rotate
+        height: 112px
+        display: flex
+        flex-direction: column
+        span
+            height: 28px
+            color: #4fdcff
+            position: relative
+            display: flex
+            align-items: center
+            animation: body-15 10s linear infinite
+
+@keyframes body-15
+    0%, 5%
+        top: 0
+    10%, 15%
+        top: -28px
+    20%, 25%
+        top: -56px
+    30%, 35%
+        top: -84px
+    40%, 45%
+        top: -56px
+    50%, 55%
+        top: -28px
+    60%, 100%
+        top: 0
+
+        
