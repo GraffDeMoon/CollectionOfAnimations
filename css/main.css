@@ -593,6 +593,7 @@ input, label, textarea, button, select, a {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  cursor: pointer;
 }
 
 .animation-8:hover .body-8 a {
@@ -1557,23 +1558,23 @@ input, label, textarea, button, select, a {
 }
 
 .body-15_wraper {
-  display: flex;
   height: 28px;
+  display: flex;
   overflow: hidden;
 }
 .body-15_wraper .body-15_static {
+  margin-right: 8px;
   display: flex;
   align-items: center;
-  margin-right: 8px;
 }
 .body-15_wraper .body-15_rotate {
+  height: 112px;
   display: flex;
   flex-direction: column;
-  height: 112px;
 }
 .body-15_wraper .body-15_rotate span {
-  color: #4fdcff;
   height: 28px;
+  color: #4fdcff;
   position: relative;
   display: flex;
   align-items: center;
