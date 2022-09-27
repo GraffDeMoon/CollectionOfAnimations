@@ -1658,3 +1658,21 @@ input, label, textarea, button, select, a {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+.animation-17 {
+  background-color: #263b20;
+}
+
+.body-17 {
+  height: 100%;
+  width: 100%;
+}
+.body-17 img {
+  width: 100%;
+  transition: all 2.5s linear;
+  filter: grayscale(100%);
+}
+.body-17 img:hover {
+  filter: grayscale(0);
+  transition: all 0.5s linear;
+}
