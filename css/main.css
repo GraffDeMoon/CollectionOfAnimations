@@ -1699,7 +1699,7 @@ input, label, textarea, button, select, a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: rgb(30, 0, 40);
   mix-blend-mode: multiply;
 }
 .body-18 .body-18_wrp h1 {
