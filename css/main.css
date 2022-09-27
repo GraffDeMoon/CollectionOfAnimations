@@ -1703,6 +1703,7 @@ input, label, textarea, button, select, a {
   mix-blend-mode: multiply;
 }
 .body-18 .body-18_wrp h1 {
+  font-family: serif;
   font-size: 80px;
   color: #fff;
 }
