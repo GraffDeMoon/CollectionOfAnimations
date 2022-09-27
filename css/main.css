@@ -1676,3 +1676,33 @@ input, label, textarea, button, select, a {
   filter: grayscale(0);
   transition: all 0.5s linear;
 }
+
+.animation-18 {
+  background-color: #000;
+}
+
+.body-18 {
+  height: 100%;
+  width: 100%;
+}
+.body-18 video {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.body-18 .body-18_wrp {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  mix-blend-mode: multiply;
+}
+.body-18 .body-18_wrp h1 {
+  font-size: 80px;
+  color: #fff;
+}
